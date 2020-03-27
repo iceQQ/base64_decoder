@@ -65,7 +65,7 @@ int main() {
 
         dec=0;
     }
-    cout << base64 << " ---> ";
+    cout << "Decoded text ---> ";
     for(int i=0;i<sizeof(binayNums)/sizeof(binayNums[0]);i++){
         cout << char(binayNums[i]);
     }
